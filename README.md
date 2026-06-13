@@ -1,6 +1,9 @@
 # actividad_iv
 Actividad iv
 
+Desarrollador A: Esteban BOGADO.-
+Desarrollador B: Thomas LEPEZ.-
+
 Ejercicio: Formulario + Envío por URL + Lectura de Parámetros
 
 Fecha de entrega: 17 de Junio - 18hs.
