@@ -37,5 +37,5 @@ form.addEventListener("submit", function (enviar) {
     terminos: terminos
   });
 
-  window.location.href = "paginaB.html?" + params.toString();
+  window.location.href = "resultado.html?" + params.toString();
 });
