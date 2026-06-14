@@ -1,6 +1,6 @@
 const form = document.getElementById("formulario");
 
-form.addEventListener("submit", function(enviar) {
+form.addEventListener("submit", function (enviar) {
   enviar.preventDefault();
 
   const nombre = document.getElementById("nombre").value;
