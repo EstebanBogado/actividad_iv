@@ -19,8 +19,12 @@ form.addEventListener("submit", function (enviar) {
     alert("Email inválido");
     return;
   }
-  if (edad < 18 || edad > 60) {
+  if (edad < 18 || edad > 60 || !edad) {
     alert("La edad debe estar entre 18 y 60");
+    return;
+  }
+  if (!pais) {
+    alert("Debe seleccionar un país")
     return;
   }
   if (!terminos) {

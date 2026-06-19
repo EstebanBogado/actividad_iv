@@ -1,5 +1,15 @@
-main,
-h2 {
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: white;
+    border-radius: 0.5em;
+}
+
+#main-index,
+#resultado-container {
     background-color: #bfd8ec;
     padding: 1.25em;
     font-family: Arial, sans-serif;
@@ -8,7 +18,22 @@ h2 {
     border-radius: 0.5em;
 }
 
+form {
+    text-align: left;
+}
 
+.campos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    height: max-content;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: baseline;
+}
+
+h1,
 h2 {
     background-color: #83a8c7;
     padding: 1.25em;
@@ -31,6 +56,25 @@ button {
     align-self: center;
 }
 
+.btn,
+a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.aceptar-terminos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
 input,
 select {
     padding: 0.625em;
@@ -39,4 +83,5 @@ select {
     border-radius: 0.25em;
     margin-bottom: 1.25em;
     background-color: white;
+    height: max-content;
 }
